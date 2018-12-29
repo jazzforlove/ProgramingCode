@@ -15,6 +15,8 @@
 		B4ADB3AB21D77899007ABEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3AA21D77899007ABEA2 /* main.m */; };
 		B4ADB3B521D7A11D007ABEA2 /* Calculator+category.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3B321D7A11D007ABEA2 /* Calculator+category.m */; };
 		B4ADB3B621D7A11D007ABEA2 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3B421D7A11D007ABEA2 /* Calculator.m */; };
+		B4ADB3B921D7AAB9007ABEA2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3B821D7AAB9007ABEA2 /* Person.m */; };
+		B4ADB3BC21D7B936007ABEA2 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3BB21D7B936007ABEA2 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		B4ADB3B221D7A11C007ABEA2 /* Calculator+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Calculator+category.h"; sourceTree = "<group>"; };
 		B4ADB3B321D7A11D007ABEA2 /* Calculator+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Calculator+category.m"; sourceTree = "<group>"; };
 		B4ADB3B421D7A11D007ABEA2 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		B4ADB3B721D7AAB9007ABEA2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B4ADB3B821D7AAB9007ABEA2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B4ADB3BA21D7B936007ABEA2 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		B4ADB3BB21D7B936007ABEA2 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				B4ADB39C21D77890007ABEA2 /* AppDelegate.m */,
 				B4ADB39E21D77890007ABEA2 /* ViewController.h */,
 				B4ADB39F21D77890007ABEA2 /* ViewController.m */,
+				B4ADB3B721D7AAB9007ABEA2 /* Person.h */,
+				B4ADB3B821D7AAB9007ABEA2 /* Person.m */,
+				B4ADB3BA21D7B936007ABEA2 /* Dog.h */,
+				B4ADB3BB21D7B936007ABEA2 /* Dog.m */,
 				B4ADB3B121D7A11C007ABEA2 /* Calculator.h */,
 				B4ADB3B421D7A11D007ABEA2 /* Calculator.m */,
 				B4ADB3B221D7A11C007ABEA2 /* Calculator+category.h */,
@@ -151,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4ADB3B921D7AAB9007ABEA2 /* Person.m in Sources */,
 				B4ADB3A021D77890007ABEA2 /* ViewController.m in Sources */,
 				B4ADB3AB21D77899007ABEA2 /* main.m in Sources */,
 				B4ADB39D21D77890007ABEA2 /* AppDelegate.m in Sources */,
+				B4ADB3BC21D7B936007ABEA2 /* Dog.m in Sources */,
 				B4ADB3B521D7A11D007ABEA2 /* Calculator+category.m in Sources */,
 				B4ADB3B621D7A11D007ABEA2 /* Calculator.m in Sources */,
 			);
