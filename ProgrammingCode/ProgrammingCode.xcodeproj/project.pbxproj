@@ -17,6 +17,8 @@
 		B4ADB3B621D7A11D007ABEA2 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3B421D7A11D007ABEA2 /* Calculator.m */; };
 		B4ADB3B921D7AAB9007ABEA2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3B821D7AAB9007ABEA2 /* Person.m */; };
 		B4ADB3BC21D7B936007ABEA2 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3BB21D7B936007ABEA2 /* Dog.m */; };
+		B4ADB3BF21D7C629007ABEA2 /* JLKVONotifying_person.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3BE21D7C629007ABEA2 /* JLKVONotifying_person.m */; };
+		B4ADB3C221D7CCAC007ABEA2 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB3C121D7CCAC007ABEA2 /* NSObject+KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		B4ADB3B821D7AAB9007ABEA2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B4ADB3BA21D7B936007ABEA2 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		B4ADB3BB21D7B936007ABEA2 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		B4ADB3BD21D7C629007ABEA2 /* JLKVONotifying_person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLKVONotifying_person.h; sourceTree = "<group>"; };
+		B4ADB3BE21D7C629007ABEA2 /* JLKVONotifying_person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLKVONotifying_person.m; sourceTree = "<group>"; };
+		B4ADB3C021D7CCAC007ABEA2 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		B4ADB3C121D7CCAC007ABEA2 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 				B4ADB39F21D77890007ABEA2 /* ViewController.m */,
 				B4ADB3B721D7AAB9007ABEA2 /* Person.h */,
 				B4ADB3B821D7AAB9007ABEA2 /* Person.m */,
+				B4ADB3BD21D7C629007ABEA2 /* JLKVONotifying_person.h */,
+				B4ADB3BE21D7C629007ABEA2 /* JLKVONotifying_person.m */,
+				B4ADB3C021D7CCAC007ABEA2 /* NSObject+KVO.h */,
+				B4ADB3C121D7CCAC007ABEA2 /* NSObject+KVO.m */,
 				B4ADB3BA21D7B936007ABEA2 /* Dog.h */,
 				B4ADB3BB21D7B936007ABEA2 /* Dog.m */,
 				B4ADB3B121D7A11C007ABEA2 /* Calculator.h */,
@@ -166,8 +176,10 @@
 				B4ADB3AB21D77899007ABEA2 /* main.m in Sources */,
 				B4ADB39D21D77890007ABEA2 /* AppDelegate.m in Sources */,
 				B4ADB3BC21D7B936007ABEA2 /* Dog.m in Sources */,
+				B4ADB3BF21D7C629007ABEA2 /* JLKVONotifying_person.m in Sources */,
 				B4ADB3B521D7A11D007ABEA2 /* Calculator+category.m in Sources */,
 				B4ADB3B621D7A11D007ABEA2 /* Calculator.m in Sources */,
+				B4ADB3C221D7CCAC007ABEA2 /* NSObject+KVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

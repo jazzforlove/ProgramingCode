@@ -32,21 +32,23 @@
 //}
 
 // 默认为YES 自动 NO为手动模式
-+ (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key{
-    // 需要开启手动监听的属性
-    if ([key isEqualToString:@"name"]) {
-        return NO;
-    }
-    return YES;
-}
+//+ (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key{
+//    // 需要开启手动监听的属性
+//    if ([key isEqualToString:@"name"]) {
+//        return NO;
+//    }
+//    return YES;
+//}
+//
+//+ (NSSet<NSString *> *)keyPathsForValuesAffectingValueForKey:(NSString *)key{
+//    NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
+//    if ([key isEqualToString:@"dog"] ) {
+//        //创建依赖关系
+//        keyPaths =  [[NSSet alloc]initWithObjects:@"_dog.name",@"_dog.level", nil];
+//    }
+//    return keyPaths;
+//}
 
-+ (NSSet<NSString *> *)keyPathsForValuesAffectingValueForKey:(NSString *)key{
-    NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
-    if ([key isEqualToString:@"dog"] ) {
-        //创建依赖关系
-        keyPaths =  [[NSSet alloc]initWithObjects:@"_dog.name",@"_dog.level", nil];
-    }
-    return keyPaths;
-}
+
 
 @end

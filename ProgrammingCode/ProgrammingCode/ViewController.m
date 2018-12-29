@@ -10,6 +10,7 @@
 #import "Calculator.h"
 #import "Calculator+category.h"
 #import "Person.h"
+#import "NSObject+KVO.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) Person *person;
@@ -32,7 +33,9 @@
     // kvo触发模式有两种：1自动 2手动
     // 手动监听设置需要在person类中将开关设置为NO
     
-    [self observeContainer];
+//    [self observeContainer];
+    
+    [self customKVO];
     
     
     
@@ -53,6 +56,10 @@
 - (void)observeContainer{
     [_person addObserver:self forKeyPath:NSStringFromSelector(@selector(arr)) options:NSKeyValueObservingOptionNew context:nil];
 }
+//自定义kvo
+- (void)customKVO{
+    [_person jl_addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
+}
 
 
 
@@ -69,15 +76,17 @@
     //监听模型的所有属性
 //    _person.dog.age = a ++;
 //    _person.dog.level = a ++;
-    NSMutableArray *temparr = [_person mutableArrayValueForKey:@"arr"];
-    [temparr addObject:[NSString stringWithFormat:@"%d",a++]];
+//    NSMutableArray *temparr = [_person mutableArrayValueForKey:@"arr"];
+//    [temparr addObject:[NSString stringWithFormat:@"%d",a++]];
+    _person.age = a ++;
     
 }
 #pragma mark -- KVO代理
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
 //    NSLog(@"change--%@,age--%d,level--%d",change,_person.dog.age,_person.dog.level);
-    NSLog(@"chang--%@",change);
+//    NSLog(@"chang--%@",change);
+    NSLog(@"age--%d",_person.age);
 }
 
 #pragma mark -- 链式编程思想
