@@ -11,9 +11,11 @@
 #import "Calculator+category.h"
 #import "Person.h"
 #import "NSObject+KVO.h"
+#import "Dog.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) Person *person;
+@property (nonatomic, strong) Dog *dog;
 @end
 
 @implementation ViewController
@@ -22,7 +24,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     //初始化对象
-    _person = [[Person alloc]init];
+//    _person = [[Person alloc]init];
+    _dog = [[Dog alloc]init];
     /**
      KVO底层实现原理
      1.当某个对象第一次被观察时，系统就自动为该类创建一个派生类（子类）NSKVONOtifying_person
@@ -35,7 +38,7 @@
     
 //    [self observeContainer];
     
-    [self customKVO];
+//    [self customKVO];
     
     
     

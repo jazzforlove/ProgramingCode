@@ -7,7 +7,23 @@
 //
 
 #import "Dog.h"
+#import "Dog+category.h"
+#import "Dog+extension.h"
 
 @implementation Dog
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        [self eat];
+        
+    }
+    return self;
+}
+
+
+//- (void)eat{
+//    NSLog(@"吃东西了");
+//}
 
 @end

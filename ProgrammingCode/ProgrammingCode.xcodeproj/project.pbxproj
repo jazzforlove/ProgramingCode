@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B482BB3121DFA5580060F608 /* Dog+category.m in Sources */ = {isa = PBXBuildFile; fileRef = B482BB3021DFA5580060F608 /* Dog+category.m */; };
 		B4ADB39D21D77890007ABEA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB39C21D77890007ABEA2 /* AppDelegate.m */; };
 		B4ADB3A021D77890007ABEA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADB39F21D77890007ABEA2 /* ViewController.m */; };
 		B4ADB3A321D77890007ABEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4ADB3A121D77890007ABEA2 /* Main.storyboard */; };
@@ -22,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B482BB2F21DFA5580060F608 /* Dog+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog+category.h"; sourceTree = "<group>"; };
+		B482BB3021DFA5580060F608 /* Dog+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Dog+category.m"; sourceTree = "<group>"; };
+		B482BB3221DFA6710060F608 /* Dog+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog+extension.h"; sourceTree = "<group>"; };
 		B4ADB39821D77890007ABEA2 /* ProgrammingCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammingCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ADB39B21D77890007ABEA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4ADB39C21D77890007ABEA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +92,9 @@
 				B4ADB3C121D7CCAC007ABEA2 /* NSObject+KVO.m */,
 				B4ADB3BA21D7B936007ABEA2 /* Dog.h */,
 				B4ADB3BB21D7B936007ABEA2 /* Dog.m */,
+				B482BB3221DFA6710060F608 /* Dog+extension.h */,
+				B482BB2F21DFA5580060F608 /* Dog+category.h */,
+				B482BB3021DFA5580060F608 /* Dog+category.m */,
 				B4ADB3B121D7A11C007ABEA2 /* Calculator.h */,
 				B4ADB3B421D7A11D007ABEA2 /* Calculator.m */,
 				B4ADB3B221D7A11C007ABEA2 /* Calculator+category.h */,
@@ -173,6 +180,7 @@
 			files = (
 				B4ADB3B921D7AAB9007ABEA2 /* Person.m in Sources */,
 				B4ADB3A021D77890007ABEA2 /* ViewController.m in Sources */,
+				B482BB3121DFA5580060F608 /* Dog+category.m in Sources */,
 				B4ADB3AB21D77899007ABEA2 /* main.m in Sources */,
 				B4ADB39D21D77890007ABEA2 /* AppDelegate.m in Sources */,
 				B4ADB3BC21D7B936007ABEA2 /* Dog.m in Sources */,
